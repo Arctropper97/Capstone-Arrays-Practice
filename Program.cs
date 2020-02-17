@@ -12,10 +12,11 @@ namespace Capstone_Arrays_Practice
             int i;
 
 
-            for (i = start; myArray.Length <=end; i++)
+            for (i = start; i <= myArray.Length; i++)
             {
-                Console.Write("Your number is:" + myArray[i]);
+                Console.WriteLine("Your number is:" + myArray[i]);
             }
+            
         }
     }
 }
